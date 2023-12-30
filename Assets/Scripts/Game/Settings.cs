@@ -107,6 +107,10 @@ public class Settings : MonoBehaviour
      * Add the Player Input Manager to the Settings object, handle the new player registration,
      *   and enable joining of second player using the alternative input scheme.
      */
+    public void OnPlayerJoined()
+    {
+        
+    }
 
     /// <summary>
     /// Called when the script instance is first loaded.
